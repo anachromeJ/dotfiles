@@ -79,10 +79,9 @@
   (interactive) (revert-buffer t t))
 (global-set-key "\C-x\C-r" 'revert-buffer-no-confirm)
 
-
-;; ---------------------------
-;; -- JS Mode configuration --
-;; ---------------------------
+;; -------------
+;; -- JS Mode --
+;; -------------
 (load "js-config.el")
 (add-to-list 'load-path "~/.emacs.d/jade-mode") ;; github.com/brianc/jade-mode
 (require 'sws-mode)
@@ -101,3 +100,14 @@
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
 
+;; --------------
+;; -- Web Mode --
+;; --------------
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jsp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
