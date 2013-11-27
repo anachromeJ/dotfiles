@@ -79,6 +79,15 @@
   (interactive) (revert-buffer t t))
 (global-set-key "\C-x\C-r" 'revert-buffer-no-confirm)
 
+;; ---------------
+;; -- Marmalade --
+;; ---------------
+(require 'package)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
+
+
 ;; -------------
 ;; -- JS Mode --
 ;; -------------
