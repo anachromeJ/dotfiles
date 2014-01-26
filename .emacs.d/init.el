@@ -22,7 +22,8 @@
 (show-paren-mode t)
 (global-linum-mode t)
 (column-number-mode t)
-(setq-default cursor-type 'bar)
+;; (setq-default cursor-type 'bar)
+(blink-cursor-mode 0)
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
 (setq column-number-mode t)
@@ -31,6 +32,12 @@
 (setq show-trailing-whitespace t)
 (setq suggest-key-bindings t)
 (setq vc-follow-symlinks t)
+(setq initial-scratch-message "")
+;; (setq visible-bell t)
+
+;; (toggle-frame-fullscreen)
+(scroll-bar-mode 0)
+(tool-bar-mode 0)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
