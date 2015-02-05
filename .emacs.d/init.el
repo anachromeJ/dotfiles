@@ -36,30 +36,18 @@
 (setq-default tab-width 4)
 (setq-default c-basic-offset 4)
 ;; (setq visible-bell t)
-
-;; (toggle-frame-fullscreen)
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
 
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
-;;  '(default ((t (:inherit autoface-default :strike-through nil :underline nil :slant normal :weight normal :height 120 :width normal :family "monaco"))))
-;;  '(column-marker-1 ((t (:background "red"))))
-;;  '(diff-added ((t (:foreground "cyan"))))
-;;  '(flymake-errline ((((class color) (background light)) (:background "Red"))))
-;;  '(font-lock-comment-face ((((class color) (min-colors 8) (background light)) (:foreground "red"))))
-;;  '(fundamental-mode-default ((t (:inherit default))))
-;;  '(highlight ((((class color) (min-colors 8)) (:background "white" :foreground "magenta"))))
-;;  '(isearch ((((class color) (min-colors 8)) (:background "yellow" :foreground "black"))))
-;;  '(linum ((t (:foreground "black" :weight bold))))
-;;  '(region ((((class color) (min-colors 8)) (:background "white" :foreground "magenta"))))
-;;  '(secondary-selection ((((class color) (min-colors 8)) (:background "gray" :foreground "cyan"))))
-;;  '(show-paren-match ((((class color) (background light)) (:background "black"))))
-;;  '(vertical-border ((t nil)))
-)
+;; ------------------
+;; -- Color Themes --
+;; ------------------
+;; (load-theme 'solarized-light)
+;; (require 'color-theme)
+;; (color-theme-initialize)
+;; (require 'color-theme-sanityinc-solarized)
+;; (require 'solarized)
+
 
 ;; ------------
 ;; -- Macros --
@@ -88,14 +76,27 @@
   (interactive) (revert-buffer t t))
 (global-set-key "\C-x\C-r" 'revert-buffer-no-confirm)
 
-;; ---------------
-;; -- Marmalade --
-;; ---------------
-(require 'package)
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
-(package-initialize)
+;; -----------
+;; -- Melpa --
+;; -----------
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  (add-to-list 'package-archives
+;;			   '("marmalade" . "http://marmalade-repo.org/packages/")
+			   '("melpa" . "http://melpa.org/packages/") t))
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 
+;; -------------------
+;; -- Auto-Complete --
+;; -------------------
+(defun auto-complete-mode-maybe ()
+  "No maybe for you. Only AC!"
+  (unless (minibufferp (current-buffer))
+    (auto-complete-mode 1)))
+(global-auto-complete-mode t)
 
 ;; -------------
 ;; -- JS Mode --
@@ -130,3 +131,17 @@
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector [default bold shadow italic underline bold bold-italic bold])
+ '(custom-enabled-themes (quote (solarized-light)))
+ '(custom-safe-themes (quote ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
