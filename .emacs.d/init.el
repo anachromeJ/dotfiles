@@ -33,6 +33,8 @@
 (setq suggest-key-bindings t)
 (setq vc-follow-symlinks t)
 (setq initial-scratch-message "")
+(setq-default tab-width 4)
+(setq-default c-basic-offset 4)
 ;; (setq visible-bell t)
 
 ;; (toggle-frame-fullscreen)
