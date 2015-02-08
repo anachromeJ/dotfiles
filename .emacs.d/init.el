@@ -36,7 +36,7 @@
 (setq-default tab-width 4)
 (setq-default c-basic-offset 4)
 (setq-default indent-tabs-mode nil)
-;; (setq visible-bell t)
+(setq visible-bell t)
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
 
