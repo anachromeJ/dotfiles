@@ -43,9 +43,9 @@
 ;; ------------------
 ;; -- Color Themes --
 ;; ------------------
-;; (require 'moe-theme)
-;; (moe-theme-set-color 'orange)
-; (powerline-moe-theme)
+(require 'moe-theme)
+(moe-theme-set-color 'blue)
+(powerline-moe-theme)
 ;; (load-theme 'solarized-light)
 ;; (require 'color-theme)
 ;; (color-theme-initialize)
