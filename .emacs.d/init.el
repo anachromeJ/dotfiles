@@ -40,18 +40,6 @@
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
 
-;; ------------------
-;; -- Color Themes --
-;; ------------------
-(require 'moe-theme)
-(moe-theme-set-color 'blue)
-(powerline-moe-theme)
-;; (load-theme 'solarized-light)
-;; (require 'color-theme)
-;; (color-theme-initialize)
-;; (require 'color-theme-sanityinc-solarized)
-;; (require 'solarized)
-
 
 ;; ------------
 ;; -- Macros --
@@ -161,4 +149,20 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+
  )
+
+
+;; ------------------
+;; -- Color Themes --
+;; ------------------
+(require 'moe-theme)
+(moe-theme-set-color 'blue)
+(powerline-moe-theme)
+;; (load-theme 'solarized-light)
+;; (require 'color-theme)
+;; (color-theme-initialize)
+;; (require 'color-theme-sanityinc-solarized)
+;; (require 'solarized)
+
+
