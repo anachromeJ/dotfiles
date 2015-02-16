@@ -1,5 +1,4 @@
 ;; -*- mode: emacs-lisp -*-
-;; Simple .emacs configuration
 
 ;; ---------------------
 ;; -- Global Settings --
@@ -22,7 +21,6 @@
 (show-paren-mode t)
 (global-linum-mode t)
 (column-number-mode t)
-;; (setq-default cursor-type 'bar)
 (blink-cursor-mode 0)
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
@@ -128,16 +126,12 @@
  )
 
 
-;; ------------------
-;; -- Color Themes --
-;; ------------------
+;; ------------
+;; -- Themes --
+;; ------------
 (require 'moe-theme)
 (moe-theme-set-color 'blue)
 (powerline-moe-theme)
-;; (load-theme 'solarized-light)
-;; (require 'color-theme)
-;; (color-theme-initialize)
-;; (require 'color-theme-sanityinc-solarized)
-;; (require 'solarized)
+
 
 
