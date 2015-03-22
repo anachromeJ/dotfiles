@@ -92,7 +92,6 @@ alias ..='cd ..'
 alias ...='cd ..;cd ..'
 alias md='mkdir'
 alias cl='clear'
-alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
 
 # 2.3) Text and editor commands
@@ -110,3 +109,4 @@ export GREP_COLOR='1;31' # green for matches
 # http://www.gnu.org/software/coreutils/faq/coreutils-faq.html#Sort-does-not-sort-in-normal-order_0021
 unset LANG
 export LC_ALL=POSIX
+[[ -s "/Users/Jens/.gvm/scripts/gvm" ]] && source "/Users/Jens/.gvm/scripts/gvm"
