@@ -6,6 +6,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 (require 'cl)
 (require 'ido)
+;; (require 'flx-ido)
 (require 'ffap)
 (require 'uniquify)
 (require 'ansi-color)
@@ -16,6 +17,8 @@
 (require 'dired-x)
 (require 'compile)
 (ido-mode t)
+;; (ido-everywhere 1)
+;; (flx-ido-mode 1)
 (menu-bar-mode -1)
 (normal-erase-is-backspace-mode 0)
 (show-paren-mode t)
@@ -34,10 +37,12 @@
 (setq-default tab-width 4)
 (setq-default c-basic-offset 4)
 (setq-default indent-tabs-mode nil)
-(setq visible-bell t)
+(setq visible-bell nil)
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
 
+;; -- Font --
+(set-default-font "Inconsolata-18")
 
 ;; ------------
 ;; -- Macros --
@@ -66,6 +71,10 @@
   (interactive) (revert-buffer t t))
 (global-set-key "\C-x\C-r" 'revert-buffer-no-confirm)
 
+;; -- Haskell mode indentation --
+(custom-set-variables
+     '(haskell-mode-hook '(turn-on-haskell-indentation)))
+
 ;; -----------
 ;; -- Melpa --
 ;; -----------
@@ -75,9 +84,14 @@
   (add-to-list 'package-archives
 ;;			   '("marmalade" . "http://marmalade-repo.org/packages/")
 			   '("melpa" . "http://melpa.org/packages/") t))
-(when (< emacs-major-version 24)
-  ;; For important compatibility libraries like cl-lib
+(when (< emacs-major-version 24)  ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+
+;; -- Projectile-Helm --
+;; NOTE: the command is C-c p h
+(projectile-global-mode)
+(setq projectile-completion-system 'helm)
+(helm-projectile-on)
 
 ;; -------------------
 ;; -- Auto-Complete --
@@ -102,6 +116,39 @@
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
+;; -- Helm --
+(package-initialize)
+(add-to-list 'load-path (file-name-directory (file-truename "./emacs-helm.sh")))
+(setq default-frame-alist '((vertical-scroll-bars . nil)
+                            (tool-bar-lines . 0)
+                            (menu-bar-lines . 0)
+                            (fullscreen . nil)))
+(blink-cursor-mode -1)
+(require 'helm-config)
+(helm-mode 1)
+(define-key global-map [remap find-file] 'helm-find-files)
+(define-key global-map [remap occur] 'helm-occur)
+(define-key global-map [remap list-buffers] 'helm-buffers-list)
+(define-key global-map [remap dabbrev-expand] 'helm-dabbrev)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(unless (boundp 'completion-in-region-function)
+  (define-key lisp-interaction-mode-map [remap completion-at-point] 'helm-lisp-completion-at-point)
+  (define-key emacs-lisp-mode-map       [remap completion-at-point] 'helm-lisp-completion-at-point))
+(add-hook 'kill-emacs-hook #'(lambda () (and (file-exists-p "/tmp/helm-cfg.el") (delete-file "/tmp/helm-cfg.el"))))
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+
+;; -- Themes --
+(require 'moe-theme)
+(moe-theme-set-color 'blue)
+(powerline-moe-theme)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -109,7 +156,7 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector ["#fdf6e3" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#657b83"])
- '(custom-enabled-themes (quote (tango)))
+ '(custom-enabled-themes (quote (adwaita)))
  '(custom-safe-themes (quote ("dd4db38519d2ad7eb9e2f30bc03fba61a7af49a185edfd44e020aa5345e3dca7" "14fc90b23d8eb37a16911992216e4ecf51209adb664be1b43d7ea87416a5dc45" "d50ab16e07f2a4b2bb16e12cd27d4c6a7a79396631c50f6fc46c0d5899acd81d" "74278d14b7d5cf691c4d846a4bbf6e62d32104986f104c1e61f718f9669ec04b" "bc2846e7b3fe884da451356d94e37e56441e4b19ea058b73faa8a055f55a028b" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "e16a771a13a202ee6e276d06098bc77f008b73bbac4d526f160faa2d76c1dd0e" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
  '(fci-rule-color "#eee8d5")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
@@ -117,21 +164,6 @@
  '(vc-annotate-background "#586e75")
  '(vc-annotate-color-map (quote ((20 . "#990A1B") (40 . "#FF6E64") (60 . "#cb4b16") (80 . "#7B6000") (100 . "#b58900") (120 . "#DEB542") (140 . "#546E00") (160 . "#859900") (180 . "#B4C342") (200 . "#3F4D91") (220 . "#6c71c4") (240 . "#9EA0E5") (260 . "#2aa198") (280 . "#69CABF") (300 . "#00629D") (320 . "#268bd2") (340 . "#69B7F0") (360 . "#d33682"))))
  '(vc-annotate-very-old-color "#93115C"))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
 
- )
-
-
-;; ------------
-;; -- Themes --
-;; ------------
-(require 'moe-theme)
-(moe-theme-set-color 'blue)
-(powerline-moe-theme)
-
-
-
+;; -- Initial Directory --
+(cd "~/Dropbox")
