@@ -1,1 +1,1938 @@
-(nil)
+((("Runtime" .
+   [1 0 0 0 0 0 0])
+  ("NewRuntime" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("attrs" .
+   [1 0 0 0 0])
+  ("decl" .
+   [1 0 0 0])
+  ("string_of_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("specs" .
+   [2 0 0 0 0])
+  ("string_of_single_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("body" .
+   [1 0 0 0])
+  ("sid" .
+   [1 0 0])
+  ("relationship_strings" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("episodes" .
+   [1 0 0 0 0 0 0 0])
+  ("series" .
+   [1 0 0 0 0 0])
+  ("content_strings" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("content" .
+   [6 0 0 0 0 0 0])
+  ("write" .
+   [6 0 0 0 0])
+  ("out" .
+   [6 0 0])
+  ("init" .
+   [1 0 0 0])
+  ("expr" .
+   [1 0 0 0])
+  ("define_global" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("container_addr" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("lookup" .
+   [2 0 0 0 0 0])
+  ("string_of_llvalue" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("build_load" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("type_of" .
+   [2 0 0 0 0 0 0])
+  ("string_of_lltype" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("container" .
+   [2 0 0 0 0 0 0 0 0])
+  ("field_name" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("container_tname" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("idx" .
+   [2 0 0])
+  ("string_of_id" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("id" .
+   [3 0])
+  ("eprintf" .
+   [3 0 0 0 0 0 0])
+  ("Printf" .
+   [3 0 0 0 0 0])
+  ("print" .
+   [1 0 0 0 0])
+  ("acc" .
+   [2 0 0])
+  ("vdecl_to_bind" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("gstmts" .
+   [1 0 0 0 0 0])
+  ("string_of_global_stmt" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("typedefs" .
+   [1 0 0 0 0 0 0 0])
+  ("func" .
+   [2 0 0 0])
+  ("fold_left" .
+   [2 0 0 0 0 0 0 0 0])
+  ("v" .
+   [1])
+  ("global_stmts" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("global" .
+   [1 0 0 0 0 0])
+  ("filter" .
+   [2 0 0 0 0 0])
+  ("add_vdecl" .
+   [2 0 0 0 0 0 0 0 0])
+  ("Global" .
+   [7 0 0 0 0 0])
+  ("global_env" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("StringMap" .
+   [5 0 0 0 0 0 0 0 0])
+  ("user_types" .
+   [9 0 0 0 0 0 0 0 0 0])
+  ("Typedef" .
+   [2 0 0 0 0 0 0])
+  ("gstmt" .
+   [3 0 0 0 0])
+  ("stmt" .
+   [1 0 0 0])
+  ("env" .
+   [6 0 0])
+  ("global_stmt" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("concat" .
+   [1 0 0 0 0 0])
+  ("builtin_duplicates" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0])
+  ("Failure" .
+   [3 0 0 0 0 0 0])
+  ("builtins" .
+   [1 0 0 0 0 0 0 0])
+  ("fname" .
+   [1 0 0 0 0])
+  ("mem" .
+   [1 0 0])
+  ("name" .
+   [5 0 0 0])
+  ("check_not_void" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("global_vdecls" .
+   [2 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("functions" .
+   [1 0 0 0 0 0 0 0 0])
+  ("check_vdecl" .
+   [0 0 0 0 0 0 0 1 1 0 0])
+  ("vd" .
+   [12 0])
+  ("block_vars" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Hashtbl" .
+   [1 0 0 0 0 0 1])
+  ("scope_table" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("type_of_identifier_subr" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("type_of_identifier" .
+   [0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0])
+  ("tl" .
+   [5 0])
+  ("table" .
+   [4 0 0 0 0])
+  ("iter2" .
+   [0 0 0 0 1])
+  ("local_vars" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("push" .
+   [1 0 0 0])
+  ("symbol_tables" .
+   [8 0 0 0 0 0 0 0 0 3 1 0 0])
+  ("Stack" .
+   [3 0 0 0 0])
+  ("create" .
+   [2 0 0 0 0 0])
+  ("empty" .
+   [5 0 0 0 0])
+  ("global_vars" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("Void" .
+   [1 0 0 0])
+  ("typ_equal" .
+   [1 0 0 0 0 0 0 0 0])
+  ("DataType" .
+   [3 0 0 0 0 0 0 0])
+  ("Unknown" .
+   [4 0 0 0 0 0 0])
+  ("matrix" .
+   [4 0 0 0 0 0])
+  ("NumMatrix" .
+   [1 0 0 0 0 0 0 0 0])
+  ("string_of_typ" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("List" .
+   [13 0 0 0])
+  ("list" .
+   [1 0 0 0])
+  ("typ" .
+   [9 0 0])
+  ("LIST" .
+   [2 0 0 0])
+  ("RBRACKET" .
+   [2 0 0 0 0 0 0 0])
+  ("LBRACKET" .
+   [2 0 0 0 0 0 0 0])
+  ("Float" .
+   [3 0 0 0 0])
+  ("String" .
+   [5 0 0 0 0 0])
+  ("STRING" .
+   [2 0 0 0 0 0])
+  ("FLOAT" .
+   [2 0 0 0 0])
+  ("string_of_program" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Ast" .
+   [3 0 0])
+  ("Scanner" .
+   [1 0 0 0 0 0 0])
+  ("maxdiff" .
+   [3 0 0 0 0 0 0])
+  ("diff" .
+   [3 0 0 0])
+  ("UPPER" .
+   [1 0 0 0 0])
+  ("randint" .
+   [2 0 0 0 0 0 0])
+  ("surprise" .
+   [1 0 0 0 0 0 0 0])
+  ("also" .
+   [1 0 0 0])
+  ("hardware" .
+   [3 0 0 0 0 0 0 0])
+  ("probably" .
+   [1 0 0 0 0 0 0 0])
+  ("binary_search_partition" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("total_time" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("elapsed_times" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("NUM_EXPERIMENTS" .
+   [0 0 0 0 0 1 3 0 0 0 0 0 0 0 0])
+  ("vert_comps" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("up" .
+   [1 0])
+  ("LookAt" .
+   [1 0 0 0 0 0])
+  ("cross" .
+   [2 0 0 0 0])
+  ("view" .
+   [2 0 0 0])
+  ("at" .
+   [2 0])
+  ("eyez" .
+   [1 0 0 0])
+  ("eyey" .
+   [1 0 0 0])
+  ("eyex" .
+   [1 0 0 0])
+  ("vec4" .
+   [8 0 0 0])
+  ("cos" .
+   [1 0 0])
+  ("eye" .
+   [2 0 0])
+  ("posx" .
+   [1 0 0 0])
+  ("points" .
+   [1 0 0 0 0 0])
+  ("point4" .
+   [1 0 0 0 0 0])
+  ("execute" .
+   [1 0 0 0 0 0 0])
+  ("engine" .
+   [1 0 0 0 0 0])
+  ("methods" .
+   [1 0 0 0 0 0 0])
+  ("dot" .
+   [2 0 0])
+  ("weight" .
+   [6 0 0 0 0 0])
+  ("square" .
+   [4 0 0 0 0 0])
+  ("shadow" .
+   [1 0 0 0 0 0])
+  ("./raytra_opt" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("generateSample" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("generate" .
+   [0 0 0 0 1 0 0 0])
+  ("ka" .
+   [1 0])
+  ("al" .
+   [6 0])
+  ("AreaLight" .
+   [1 0 0 0 0 1 0 0 0])
+  ("rv" .
+   [1 0])
+  ("half" .
+   [4 0 0 0])
+  ("ru" .
+   [2 0])
+  ("randFloat" .
+   [4 0 0 0 0 0 0 0 0])
+  ("xi" .
+   [1 0])
+  ("cstdlib" .
+   [1 0 0 0 0 0 0])
+  ("N_SHADOW_SAMPLE" .
+   [1 0 0 1 3 2 0 0 0 0 0 0 0 0 0])
+  ("time" .
+   [1 0 0 0])
+  ("rayColor" .
+   [0 0 0 0 0 1 0 0])
+  ("pixels" .
+   [1 0 0 0 0 0])
+  ("N_PRIMARY_SAMPLE" .
+   [1 0 0 1 4 0 0 0 0 0 0 0 0 0 0 0])
+  ("exponential" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("still" .
+   [1 0 0 0 0])
+  ("which" .
+   [2 0 0 0 0])
+  ("possible" .
+   [1 0 0 0 0 0 0 0])
+  ("space" .
+   [1 0 0 0 0])
+  ("that" .
+   [2 0 0 0])
+  ("plans" .
+   [4 0 0 0 0])
+  ("pick" .
+   [1 0 0 0])
+  ("would" .
+   [1 0 0 0 0])
+  ("Optimizer" .
+   [1 0 0 0 0 0 0 0 0])
+  ("The" .
+   [1 0 0])
+  ("DBMS" .
+   [2 0 0 0])
+  ("plan" .
+   [1 0 0 0])
+  ("for" .
+   [1 0 0])
+  ("tables" .
+   [4 0 0 0 0 0])
+  ("its" .
+   [1 0 0])
+  ("database" .
+   [3 0 0 0 0 0 0 0])
+  ("taking" .
+   [1 0 0 0 0 0])
+  ("optimization" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("This" .
+   [1 0 0 0])
+  ("all" .
+   [2 0 0])
+  ("but" .
+   [3 0 0])
+  ("fast" .
+   [2 0 0 0])
+  ("usually" .
+   [1 0 0 0 0 0 0])
+  ("queries" .
+   [3 0 0 0 0 0 0])
+  ("system" .
+   [1 0 0 0 0 0])
+  ("Optimization" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("blah" .
+   [1 0 0 0])
+  ("this" .
+   [3 0 0 0])
+  ("about" .
+   [1 0 0 0 0])
+  ("fleq" .
+   [1 0 0 0])
+  ("HitRecord" .
+   [1 0 0 0 0 0 0 0 0])
+  ("min" .
+   [1 0 0])
+  ("rrec" .
+   [1 0 0 0])
+  ("intervalMax" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("intervalMin" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("tzmax" .
+   [1 0 0 0 0])
+  ("tymax" .
+   [1 0 0 0 0])
+  ("txmax" .
+   [2 0 0 0 0])
+  ("max3f" .
+   [2 0 0 0 0])
+  ("tzmin" .
+   [1 0 0 0 0])
+  ("tymin" .
+   [1 0 0 0 0])
+  ("txmin" .
+   [4 0 0 0 0])
+  ("min3f" .
+   [2 0 0 0 0])
+  ("i" .
+   [1])
+  ("Ray" .
+   [2 0 0])
+  ("BoundingBox" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("type" .
+   [2 0 0 0])
+  ("rec" .
+   [3 0 0])
+  ("tmax" .
+   [1 0 0 0])
+  ("intersect" .
+   [5 0 0 0 0 0 0 0 0])
+  ("bbox_flag" .
+   [6 0 0 0 0 0 0 0 0])
+  ("_rec" .
+   [4 0 0 0])
+  ("bvhTree" .
+   [4 0 0 0 0 0 0])
+  ("dxa" .
+   [1 0 0])
+  ("report" .
+   [2 0 0 0 0 0])
+  ("deltaTake" .
+   [2 0 0 0 0 0 0 0 0])
+  ("rdd" .
+   [1 0 0])
+  ("take" .
+   [1 0 0 0])
+  ("original" .
+   [1 0 0 0 0 0 0 0])
+  ("MergeDeltaRDD" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("deltaCollect" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("new" .
+   [2 0 0])
+  ("withScope" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Array" .
+   [4 0 0 0 0])
+  ("Int" .
+   [1 0 0])
+  ("RECURSION_LIMIT" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("is_open" .
+   [2 0 0 0 0 0 0])
+  ("verts" .
+   [1 0 0 0 0])
+  ("tris" .
+   [1 0 0 0])
+  ("PYSPARK" .
+   [1 0 0 0 0 0 0])
+  ("TEXT" .
+   [1 0 0 0])
+  ("DATASET_DIR/yelp_academic_dataset_review.csv" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DATASET_DIR" .
+   [0 0 0 0 1 0 0 0 1 0 0])
+  ("~/Downloads/yelp_academic_dataset" .
+   [0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("review_category_mapper" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("data" .
+   [4 0 0 0])
+  ("lines" .
+   [1 0 0 0 0])
+  ("bizFile" .
+   [2 0 0 0 0 0 0])
+  ("reviewsFile" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("textFile" .
+   [4 0 0 0 0 0 0 0])
+  ("SparkContext" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("pyspark" .
+   [2 0 0 0 0 0 0])
+  ("Light" .
+   [1 0 0 0 0])
+  ("px" .
+   [5 0])
+  ("lights" .
+   [3 0 0 0 0 0])
+  ("AmbientLight" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("material" .
+   [1 0 0 0 0 0 0 0])
+  ("getMaterial" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("tmin" .
+   [3 0 0 0])
+  ("normal" .
+   [9 0 0 0 0 0])
+  ("radius" .
+   [1 0 0 0 0 0])
+  ("center" .
+   [2 0 0 0 0 0])
+  ("getPointAt" .
+   [0 0 0 0 0 0 0 0 2 0])
+  ("direction" .
+   [3 0 0 0 0 0 0 0 0])
+  ("origin" .
+   [6 0 0 0 0 0])
+  ("ray" .
+   [10 0 0])
+  ("fmin" .
+   [3 0 0 0])
+  ("t" .
+   [2])
+  ("t2" .
+   [4 0])
+  ("t1" .
+   [3 0])
+  ("Vector" .
+   [6 0 0 0 0 0])
+  ("Point" .
+   [3 0 0 0 0])
+  ("assert" .
+   [6 0 0 0 0 0])
+  ("obj" .
+   [4 0 0])
+  ("roughness" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Rgba" .
+   [7 0 0 0])
+  ("specular" .
+   [0 0 0 0 0 0 2 0])
+  ("color" .
+   [7 0 0 0 0])
+  ("diffuse" .
+   [4 0 0 0 0 0 0])
+  ("IM_DEBUGGING" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("objects" .
+   [1 0 0 0 0 0 0])
+  ("lastMaterialLoaded" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("cy" .
+   [1 0])
+  ("cx" .
+   [1 0])
+  ("Triangle" .
+   [2 0 0 0 0 0 0 0])
+  ("ax" .
+   [4 0])
+  ("cz" .
+   [4 0])
+  ("bz" .
+   [2 0])
+  ("by" .
+   [3 0])
+  ("bx" .
+   [2 0])
+  ("az" .
+   [3 0])
+  ("ay" .
+   [5 0])
+  ("dataWindow" .
+   [3 0 0 0 0 0 0 1 0 0])
+  ("croppedWidth" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("displayWindow" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Box2i" .
+   [1 0 0 0 0])
+  ("d" .
+   [2])
+  ("neighbor" .
+   [1 0 0 0 0 1 0 0])
+  ("updated" .
+   [2 0 0 0 0 0 0])
+  ("active" .
+   [4 0 0 0 0 0])
+  ("e" .
+   [3])
+  ("neighbors" .
+   [13 0 0 0 0 0 0 0 0])
+  ("printRoutingTable" .
+   [0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0])
+  ("neighborDV" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("ownAddr" .
+   [1 0 0 0 0 0 0])
+  ("dest" .
+   [8 0 0 0])
+  ("totalCost" .
+   [4 0 0 0 0 0 0 1 0])
+  ("MAX_DISTANCE" .
+   [1 0 0 0 2 0 0 1 0 0 0 0])
+  ("neighborCost" .
+   [5 0 0 0 0 0 0 0 0 1 0 0])
+  ("cost2Neighbor" .
+   [0 0 0 0 0 0 0 0 3 0 0 0 0])
+  ("make_tuple" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("neighborAddr" .
+   [10 0 0 0 0 0 0 0 0 0 0 0])
+  ("vec" .
+   [10 0 0])
+  ("nri" .
+   [6 0 0])
+  ("LOCATION_PENALTY_THRESHOLD" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("getScoreForRequest" .
+   [0 0 0 0 0 0 0 0 0 0 0 4 0 1 0 0 0 0])
+  ("only" .
+   [3 0 0 0])
+  ("LOCATION_PENALTY" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("O" .
+   [1])
+  ("currentScore" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("score" .
+   [6 0 0 0 0])
+  ("distance" .
+   [2 0 0 0 0 0 0 0])
+  ("r" .
+   [2])
+  ("getCurrentScore" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("l" .
+   [2])
+  ("MAXIMUM_NETWORK_SCORE" .
+   [0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("LOCATION_RADIUS" .
+   [1 0 0 0 0 0 1 0 0 0 2 0 0 0 0])
+  ("NetworkCapability" .
+   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("networkLocation" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("requestedLocation" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("distanceTo" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("requestedNetCap" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("null" .
+   [5 0 0 0])
+  ("mLocation" .
+   [1 0 0 0 0 0 0 0 0])
+  ("requested" .
+   [2 0 0 0 0 0 0 0 0])
+  ("netCap" .
+   [4 0 0 0 0 0])
+  ("NetworkCapabilities" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("n" .
+   [5])
+  ("getLocation" .
+   [6 0 0 0 0 0 0 0 0 0 0])
+  ("networkCapabilities" .
+   [1 0 0 0 0 0 0 0 0 0 0 4 1 2 0 0 0 0 0])
+  ("request" .
+   [8 0 0 0 0 0 0])
+  ("NetworkRequest" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("bind" .
+   [2 0 0 0])
+  ("sendFd" .
+   [1 0 0 0 0 0])
+  ("ackFd" .
+   [8 0 0 0 0])
+  ("IPPROTO_TCP" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("PF_INET" .
+   [4 0 0 0 0 0 0])
+  ("ackPort" .
+   [2 0 0 0 0 0 0])
+  ("s_addr" .
+   [0 0 0 1 0 0])
+  ("a" .
+   [6])
+  ("addr" .
+   [4 0 0 0])
+  ("senderAddr" .
+   [9 0 0 0 0 0 0 0 0 0])
+  ("arpa" .
+   [1 0 0 0])
+  ("remoteIP" .
+   [1 0 0 0 0 0 0 0])
+  ("remotePort" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("htons" .
+   [2 0 0 0 0])
+  ("sin_port" .
+   [2 0 0 0 0 0 0 0])
+  ("INADDR_ANY" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("htonl" .
+   [3 0 0 0 0])
+  ("receiverAddr" .
+   [4 0 0 0 0 0 0 0 0 0 0 0])
+  ("AF_INET" .
+   [2 0 0 0 0 0 0])
+  ("sin_family" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("algorithmName" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("durationFirstGreedy" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("unscheduledJobs" .
+   [0 0 0 0 0 0 6 2 0 1 0 0 0 0 0])
+  ("compareJobByDurationDesc" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("jobsWithoutIndex" .
+   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0])
+  ("reverseJobIndex" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Job" .
+   [5 0 0])
+  ("return" .
+   [0 0 0 0 1 0])
+  ("Resource" .
+   [1 0 0 0 0 0 0 0])
+  ("sj" .
+   [1 0])
+  ("ScheduledJob" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Schedule" .
+   [3 0 0 0 0 0 0 0])
+  ("numJobs" .
+   [1 0 0 0 0 0 0])
+  ("printSchedule" .
+   [1 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("firstComeFirstServe" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("scheduled" .
+   [8 0 0 0 0 0 0 0 0])
+  ("futureTS" .
+   [5 0 0 0 0 0 0 0])
+  ("futureResources" .
+   [2 0 0 0 0 0 0 0 3 4 1 2 0 0 0])
+  ("units" .
+   [5 0 0 0 0])
+  ("availableResources" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 1 2 2 1 0 0])
+  ("available" .
+   [0 0 0 0 0 0 2 1 0])
+  ("availble" .
+   [0 0 0 0 1 2 0 0])
+  ("scheduledJob" .
+   [6 0 0 0 0 0 0 0 0 0 0 0])
+  ("parseInputFile" .
+   [0 0 0 0 0 0 0 2 0 0 0 0 0 0])
+  ("pair" .
+   [6 0 0 0])
+  ("schedule" .
+   [15 0 0 0 2 0 1 1])
+  ("nextJob" .
+   [9 0 0 0 0 0 0])
+  ("nextResource" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("job" .
+   [3 0 0])
+  ("maxTimestamp" .
+   [4 0 0 0 0 0 3 4 1 0 0 0])
+  ("what" .
+   [2 0 0 0])
+  ("exception" .
+   [1 0 0 0 0 1 0 0 0])
+  ("duration" .
+   [6 0 0 0 0 0 0 0])
+  ("requirement" .
+   [8 0 0 0 0 0 0 0 0 0 0])
+  ("exit" .
+   [5 0 0 0])
+  ("jobsFile" .
+   [1 0 0 0 0 0 0 0])
+  ("getline" .
+   [1 0 0 0 0 0 0])
+  ("jobs" .
+   [31 0 0 0])
+  ("node" .
+   [22 0 0 0])
+  ("index" .
+   [12 0 0 0 0])
+  ("resource" .
+   [12 0 0 0 0 0 0 0])
+  ("timestamp" .
+   [1 0 0 0 0 0 0 2 0])
+  ("splitLine" .
+   [9 0 0 0 0 0 0 0 0])
+  ("tuple" .
+   [2 0 0 0 0])
+  ("resourcesFile" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("resources" .
+   [13 0 0 0 0 0 1 1 0])
+  ("sstream" .
+   [1 0 0 0 0 0 0])
+  ("answer" .
+   [3 0 0 0 0 0])
+  ("combinations" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("factorials" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("coeff" .
+   [2 0 0 0 0])
+  ("factorial" .
+   [2 0 0 0 1 4 1 0 0])
+  ("combination" .
+   [2 0 0 0 2 1 2 1 2 0 0])
+  ("keys" .
+   [8 0 0 0])
+  ("newCoord" .
+   [0 0 0 0 0 3 3 0])
+  ("maxint" .
+   [2 0 0 0 0 0])
+  ("minHops" .
+   [1 0 0 0 0 0 0])
+  ("deque" .
+   [1 0 0 0 0])
+  ("collections" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("numHops" .
+   [1 0 0 0 2 1 0])
+  ("newY" .
+   [7 0 0 0])
+  ("newX" .
+   [7 0 0 0])
+  ("board" .
+   [6 0 0 0 0])
+  ("addCoord" .
+   [0 0 0 0 0 0 1 0])
+  ("moves" .
+   [1 0 0 0 0])
+  ("pop" .
+   [1 0 0])
+  ("append" .
+   [5 0 0 0 0 0])
+  ("blocked" .
+   [9 0 0 1 0 0 0])
+  ("numBlocked" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("num" .
+   [4 0 0])
+  ("raw_input" .
+   [0 0 0 0 1 0 1 0 0])
+  ("parseTwoInts" .
+   [0 0 0 0 0 1 2 0 1 0 0 0])
+  ("hString" .
+   [0 0 0 0 1 0 0])
+  ("wString" .
+   [0 0 0 1 0 0 0])
+  ("line" .
+   [10 0 0 0])
+  ("frenemy" .
+   [2 0 0 0 0 0 0])
+  ("relation" .
+   [2 0 0 0 0 0 0 0])
+  ("isFrenemy" .
+   [0 0 0 0 0 0 1 0 0])
+  ("echoThread" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("printf" .
+   [6 0 0 0 0 0])
+  ("recv" .
+   [1 0 0 0])
+  ("thread" .
+   [4 0 0 0 0 0])
+  ("len" .
+   [12 0 0])
+  ("size_t" .
+   [2 0 0 0 0 0])
+  ("c_str" .
+   [3 0 0 0 0])
+  ("msg" .
+   [5 0 0])
+  ("message" .
+   [1 0 0 0 0 0 0])
+  ("ssize_t" .
+   [2 0 0 0 0 0 0])
+  ("sendMsg" .
+   [6 0 0 0 0 0 0])
+  ("BLOCK_TIME" .
+   [2 0 0 0 0 0 0 1 0 0])
+  ("credential" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("clientFd" .
+   [28 0 0 0 0 0 0 0])
+  ("clientSockets" .
+   [0 0 0 0 0 0 0 0 1 0 3 0 0])
+  ("credentialsFile" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("onlineStatus" .
+   [1 0 0 0 0 0 0 0 0 2 0 1])
+  ("client_fds" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("MSGLEN" .
+   [4 0 0 0 0 0])
+  ("client_fd" .
+   [2 0 0 0 0 0 0 0 0])
+  ("send" .
+   [5 0 0 0])
+  ("argv" .
+   [9 0 0 0])
+  ("command" .
+   [2 0 0 0 0 0 0])
+  ("msg_length" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("buf" .
+   [11 0 0])
+  ("split" .
+   [6 0 0 0 0])
+  ("args" .
+   [16 0 0 0])
+  ("INET6_ADDRSTRLEN" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("freeaddrinfo" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("unistd" .
+   [2 0 0 0 0 0])
+  ("gai_strerror" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("port" .
+   [2 0 0 0])
+  ("ip" .
+   [1 0])
+  ("getaddrinfo" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("AF_UNSPEC" .
+   [0 0 0 0 0 0 0 1 0])
+  ("memset" .
+   [1 0 0 0 0 0])
+  ("addrinfo" .
+   [1 0 0 0 0 0 0 0])
+  ("netdb" .
+   [1 0 0 0 0])
+  ("types" .
+   [2 0 0 0 0])
+  ("sockaddr" .
+   [5 0 0 0 0 0 0 0])
+  ("socklen_t" .
+   [1 0 0 0 0 0 0 0 0])
+  ("sin_size" .
+   [2 0 0 0 0 0 0 0])
+  ("new_fd" .
+   [3 0 0 0 0 0])
+  ("client_addrs" .
+   [4 0 0 0 0 0 0 0 0 0 1 0])
+  ("ifstream" .
+   [2 0 0 0 0 0 0 0])
+  ("std" .
+   [30 0 0])
+  ("BACKLOG" .
+   [1 0 0 0 0 0 0])
+  ("in" .
+   [14 0])
+  ("stderr" .
+   [2 0 0 0 0 0])
+  ("fprintf" .
+   [3 0 0 0 0 0 0])
+  ("close" .
+   [6 0 0 0 0])
+  ("perror" .
+   [16 0 0 0 0 0])
+  ("ai_socktype" .
+   [0 0 0 0 0 0 0 0 0 2 0])
+  ("ai_family" .
+   [2 0 0 0 0 0 0 0 0])
+  ("servinfo" .
+   [8 0 0 0 0 0 0 0])
+  ("err" .
+   [6 0 0])
+  ("hints" .
+   [7 0 0 0 0])
+  ("SOCK_STREAM" .
+   [1 0 0 0 0 0 0 0 1 1 0])
+  ("sys" .
+   [5 0 0])
+  ("sfd" .
+   [16 0 0])
+  ("server_addr" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("cerr" .
+   [20 0 0 0])
+  ("sock" .
+   [3 0 0 0])
+  ("socket" .
+   [11 0 0 0 0 0])
+  ("username_password" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("online_status" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("unordered_map" .
+   [6 0 0 0 0 0 1 2 1 0 0 0 0])
+  ("unsigned" .
+   [0 0 0 0 0 0 0 1])
+  ("max" .
+   [6 0 0])
+  ("maxLength" .
+   [6 0 0 0 0 1 0 0 0])
+  ("start" .
+   [7 0 0 0 0])
+  ("end" .
+   [25 0 0])
+  ("iterator" .
+   [1 0 0 0 0 0 0 0])
+  ("NUM_CHARS" .
+   [0 0 0 0 0 0 1 1 0])
+  ("lengthOfLongestSubstring" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("length" .
+   [6 0 0 0 0 0])
+  ("charset" .
+   [3 0 0 0 0 0 0])
+  ("it" .
+   [46 0])
+  ("include" .
+   [0 0 0 1 0 0 0])
+  ("string" .
+   [22 0 0 0 0 0])
+  ("extracted" .
+   [1 0 0 0 0 0 0 0 0])
+  ("apt-get" .
+   [1 0 0 0 0 0 0])
+  ("install" .
+   [1 0 0 0 0 0 0])
+  ("go1.4" .
+   [1 0 0 0 0])
+  ("filtering" .
+   [3 0 0 0 0 0 0 0 0])
+  ("Filter" .
+   [0 0 0 0 1 0])
+  ("==" .
+   [4 0])
+  ("foldRight" .
+   [1 0 0 0 0 0 0 0 0])
+  ("lift2" .
+   [3 0 0 0 0])
+  ("xs" .
+   [8 0])
+  ("Full" .
+   [1 0 0 0])
+  ("Nil" .
+   [5 0 0])
+  (":." .
+   [7 0])
+  ("ident" .
+   [1 0 0 0 0])
+  ("spaces" .
+   [1 0 0 0 0 0])
+  ("parseAtom" .
+   [2 0 0 0 0 0 0 0 0])
+  ("*>" .
+   [2 0])
+  ("parseSExpr" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("closeParen" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("openParen" .
+   [3 0 0 0 0 0 0 0 0])
+  ("SExpr" .
+   [1 0 0 0 0])
+  ("isSpace" .
+   [1 0 0 0 0 0 0])
+  ("<$>" .
+   [9 0 0])
+  ("undefined" .
+   [0 0 0 0 0 1 0 0 0])
+  ("parser" .
+   [1 0 0 0 0 0])
+  ("isAlphaNum" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("isLetter" .
+   [1 0 0 0 0 0 0 0])
+  ("oneOrMore" .
+   [1 0 0 0 0 0 2 0 0])
+  ("is" .
+   [1 0])
+  ("inParser" .
+   [1 0 0 0 0 0 0 0])
+  ("sequenceA" .
+   [1 0 0 0 0 0 0 0 0])
+  ("liftA2" .
+   [7 0 0 0 0 0])
+  ("zeroOrMore" .
+   [4 0 0 0 1 1 2 0 0 0])
+  ("Score" .
+   [1 0 0 0 0])
+  ("JoinList" .
+   [1 0 0 0 0 0 0 0])
+  ("fromLine" .
+   [2 0 0 0 0 0 0 0])
+  ("Size" .
+   [2 0 0 0])
+  ("+++" .
+   [2 0 0])
+  ("++" .
+   [4 0])
+  ("fromString" .
+   [1 0 0 0 0 0 0 0 0 0])
+  (">>" .
+   [1 0])
+  ("mstr" .
+   [1 0 0 0])
+  ("rulerFunc" .
+   [2 0 0 0 0 0 0 0 0])
+  ("streamTail" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("nats" .
+   [2 0 0 0])
+  ("streamFromSeed" .
+   [0 0 0 0 0 0 0 0 1 0 1 0 1 0])
+  ("streamMap" .
+   [3 0 0 0 0 0 0 0 0])
+  ("streamRepeat" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("streamToList" .
+   [0 0 0 0 0 0 0 0 1 0 1 0])
+  ("Cons" .
+   [5 0 0 0])
+  ("=>" .
+   [1 0])
+  ("Stream" .
+   [11 0 0 0 0 0])
+  ("testSat" .
+   [1 0 0 0 0 0 0])
+  ("testMM" .
+   [1 0 0 0 0 0])
+  ("testBool" .
+   [1 0 0 0 0 0 0 0])
+  ("testInteger" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Mod7" .
+   [1 0 0 0])
+  ("MinMaxLit" .
+   [7 0 0 0 0 0 0 0 0])
+  ("deriving" .
+   [0 0 0 0 0 2 0 0])
+  ("MinMax" .
+   [4 0 0 0 0 0])
+  ("testExp" .
+   [1 0 0 0 0 0 0])
+  ("<=" .
+   [2 0])
+  ("Show" .
+   [5 0 0 0])
+  ("ExprInt" .
+   [1 0 0 0 0 0 0])
+  ("ExprInteger" .
+   [1 0 0 0 0 2 0 0 1 0 0])
+  ("add" .
+   [7 0 0])
+  ("lit" .
+   [5 0 0])
+  ("ExprT" .
+   [2 0 0 0 0])
+  ("mul" .
+   [6 0 0])
+  ("Expr" .
+   [7 0 0 0])
+  ("Mul" .
+   [3 0 0])
+  ("Add" .
+   [4 0 1])
+  ("Lit" .
+   [4 0 1])
+  ("Nothing" .
+   [0 0 0 2 0 0 0])
+  ("eval" .
+   [2 0 0 0])
+  ("parseExp" .
+   [2 0 0 0 0 0 0 0])
+  ("Parser" .
+   [24 0 0 0 0 0])
+  ("evalStr" .
+   [1 0 0 0 0 0 0])
+  ("Integer" .
+   [0 0 0 0 1 1 0])
+  ("RegisterClientReply" .
+   [0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("registerClient" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("registerClientMsg" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("LeaderAddr" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("nil" .
+   [1 0 0])
+  ("../compiler/usr/bin/i686-elf-ld" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dispaly" .
+   [1 0 0 0 0 0 0])
+  ("foldTree" .
+   [0 0 0 0 0 0 1 0])
+  ("Leaf" .
+   [12 0 0 0])
+  ("x:xs" .
+   [1 0 0 0])
+  ("Node" .
+   [10 0 0 0])
+  ("tree" .
+   [12 0 0 0])
+  ("->" .
+   [50 0])
+  ("left" .
+   [16 0 0 0])
+  ("balancedInsert" .
+   [0 0 0 1 1 2 2 2 0 0 0 0 0 0])
+  ("right" .
+   [12 0 0 0 0])
+  ("height" .
+   [1 0 0 0 0 0])
+  ("::" .
+   [19 0])
+  ("Tree" .
+   [2 0 0 0])
+  ("treeHeight" .
+   [2 0 0 0 0 0 4 1 0 1])
+  ("the" .
+   [6 0 0])
+  ("rightHeight" .
+   [0 0 0 0 0 0 0 2 0 0 0])
+  ("newHeight" .
+   [0 0 0 0 0 1 0 0 0])
+  ("--" .
+   [19 0])
+  ("newLeft" .
+   [5 0 0 0 0 0 1])
+  ("newLeftHeight" .
+   [0 0 0 0 0 0 0 0 0 2 0 0 0])
+  ("exercise" .
+   [6 0 0 0 0 0 1 0])
+  ("xor" .
+   [3 0 0])
+  ("bool" .
+   [4 0 0 0])
+  ("result" .
+   [5 0 0 0 0 0])
+  ("myFoldl" .
+   [1 0 0 0 0 0 0])
+  ("base" .
+   [1 0 0 0])
+  ("cartProd" .
+   [0 0 0 1 0 1 0 0])
+  ("sieveSundaram" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("filterList" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("1..n" .
+   [1 0 0 0])
+  ("indexJ" .
+   [3 0 0 0 0 0])
+  ("Empty" .
+   [2 0 0 0 0])
+  ("Single" .
+   [1 0 0 0 0 0])
+  ("size" .
+   [31 0 0 0])
+  ("runParser" .
+   [12 0 0 0 0 0 0 0 0])
+  ("parse" .
+   [8 0 0 0 0])
+  ("maybeFirst" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("first" .
+   [21 0 0 0 0])
+  ("rest" .
+   [9 0 0 0])
+  ("abParser" .
+   [3 0 0 1 0 0 0 0])
+  ("char" .
+   [11 0 0 0])
+  ("<*>" .
+   [8 0 0])
+  ("abParser_" .
+   [1 0 0 0 0 0 0 0 0])
+  ("intPair" .
+   [1 0 0 0 0 0 0])
+  ("posInt" .
+   [3 0 1 0 0 0])
+  ("pure" .
+   [4 0 0 0])
+  ("<|>" .
+   [5 0 0])
+  ("intOrUppercase" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("satisfy" .
+   [4 0 0 0 0 0 0])
+  ("isUpper" .
+   [0 0 0 0 0 1 0])
+  ("Battlefield" .
+   [1 0 0 0 8 8 1 2 0 0 0])
+  ("Rand" .
+   [5 0 0 0])
+  ("StdGen" .
+   [2 0 0 0 4 1])
+  ("battle" .
+   [4 0 0 0 0 0])
+  ("doMatchup" .
+   [0 0 0 0 1 3 1 0 0])
+  ("bf@" .
+   [4 0 4])
+  ("die" .
+   [6 0 0])
+  ("attackVal" .
+   [0 0 0 0 0 2 2 0 0])
+  ("defendVal" .
+   [0 0 0 0 1 2 0 1 1])
+  ("battleN" .
+   [4 0 0 0 0 0 0])
+  ("numRounds" .
+   [0 0 0 0 1 0 0 0 0])
+  ("otherwise" .
+   [0 0 0 0 0 0 0 1 0])
+  ("i-1" .
+   [2 0 0])
+  ("numAttackers" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("numDefenders" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("replicateM" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("attackVals" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("defendVals" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("sort" .
+   [3 0 0 0])
+  ("sortDesc" .
+   [6 0 0 0 0 0 0 1])
+  ("count" .
+   [12 0 0 0 0])
+  ("outcome" .
+   [1 0 0 0 1 0 0])
+  ("attackLosses" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("attackWins" .
+   [0 0 0 0 0 0 0 1 1 0])
+  ("defendWins" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("------------------------------------------------------------" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DieValue" .
+   [0 0 0 0 2 0 0 0])
+  ("casualties" .
+   [0 0 0 1 1 0 0 0 0 0])
+  ("defendDead" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("attackDead" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("invade" .
+   [4 0 0 0 0 0])
+  ("newBF" .
+   [1 0 0 0 0])
+  ("successProb" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("numTrials" .
+   [2 0 0 0 0 0 0 0 0])
+  ("results" .
+   [2 0 0 0 0 0 0])
+  ("fromIntegral" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("vooid" .
+   [0 0 0 1 0])
+  ("get" .
+   [27 0 0])
+  ("<-" .
+   [5 0])
+  ("getLine" .
+   [0 0 0 0 1 0 0])
+  ("file" .
+   [10 0 0 0])
+  ("filename" .
+   [3 0 0 0 0 0 0 0])
+  ("infile" .
+   [2 0 0 0 0 0])
+  ("flatMap" .
+   [2 0 0 0 0 0 0])
+  ("toLower" .
+   [1 0 0 0 0 1 1])
+  ("to" .
+   [2 0])
+  ("word" .
+   [16 0 0 0])
+  ("dictionary" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("readFile" .
+   [0 0 0 0 0 0 1 0])
+  ("dictionaryFile" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2 0])
+  ("dict" .
+   [2 0 0 0])
+  ("equalIgnoringCase" .
+   [0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  (">>=" .
+   [1 0 0])
+  ("<<=" .
+   [1 0 0])
+  ("Course.Monad" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("isAnagramOf" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("permutations" .
+   [2 0 0 0 0 0 0 2 1 1 0 0])
+  ("isAnagram" .
+   [1 0 0 0 0 0 0 0 0])
+  ("anagrams" .
+   [2 0 0 0 0 0 0 0])
+  ("anagramsOfWord" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("on" .
+   [2 0])
+  ("fromList" .
+   [1 0 0 0 0 0 0 0])
+  ("S.member" .
+   [1 0 0 0 0 0 0 0])
+  ("hlist" .
+   [2 0 0 0 0])
+  ("showDigit" .
+   [6 0 0 0 0 0 0 0 0])
+  ("Digit3" .
+   [1 0 0 0 0 0])
+  ("Chars" .
+   [1 0 0 0 0])
+  ("showDigit3" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("D1" .
+   [1 0])
+  ("D2" .
+   [3 0])
+  ("D3" .
+   [1 0])
+  ("Cell" .
+   [3 0 0 0])
+  ("Board" .
+   [5 0 0 0 0])
+  ("Position" .
+   [2 0 0 0 0 0 0 0])
+  ("Player" .
+   [3 0 0 0 0 0])
+  ("Circle" .
+   [1 0 0 0 0 0])
+  ("Cross" .
+   [1 0 0 0 0])
+  ("Solution" .
+   [2 0 0 0 0 0 0 0])
+  ("cout" .
+   [14 0 0 0])
+  ("print_number" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("number2list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("next" .
+   [7 0 0 0])
+  ("NULL" .
+   [20 0 0 0])
+  ("val" .
+   [7 0 0])
+  ("carry" .
+   [6 0 0 0 0])
+  ("current" .
+   [11 0 0 0 0 0 0])
+  ("val1" .
+   [6 0 0 0])
+  ("val2" .
+   [9 0 0 0])
+  ("sum" .
+   [3 0 0])
+  ("iostream" .
+   [3 0 0 0 0 0 0 0])
+  ("main" .
+   [1 0 0 0])
+  ("userpass_file" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("credentials_file" .
+   [2 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0])
+  ("credentials" .
+   [1 0 0 0 0 0 3 0 0 0 1])
+  ("endl" .
+   [62 0 0 0])
+  ("vector" .
+   [41 0 0 0 0 0])
+  ("cstring" .
+   [1 0 0 0 0 0 0])
+  ("TIME_OUT" .
+   [3 0 0 0 0 0 0 0])
+  ("activity" .
+   [8 0 0 0 0 0 0 0])
+  ("user" .
+   [7 0 0 0])
+  ("find" .
+   [6 0 0 0])
+  ("chrono" .
+   [26 0 0 0 0 0])
+  ("last" .
+   [2 0 0 0])
+  ("time_point" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("no" .
+   [2 0])
+  ("seconds" .
+   [8 0 0 0 0 0 0])
+  ("user2socket" .
+   [2 0 0 0 0 0 0 0 0 1 0])
+  ("this_thread" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("sleep_for" .
+   [2 0 0 0 0 0 0 0 0])
+  ("elapsed" .
+   [2 0 0 0 0 0 0])
+  ("system_clock" .
+   [9 0 0 0 0 0 0 1 0 0 0 0])
+  ("c" .
+   [3])
+  ("timeoutThread" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("timeout" .
+   [1 0 0 0 0 0 0])
+  ("connection" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("socket2user" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("logoutUser" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("erase" .
+   [5 0 0 0 0])
+  ("lastLogoutTime" .
+   [1 0 0 0 0 0 0 1 0 0 2 0 0 0])
+  ("users" .
+   [2 0 0 0 0])
+  ("iter" .
+   [7 0 0 0])
+  ("begin" .
+   [8 0 0 0 0])
+  ("second" .
+   [25 0 0 0 0 0])
+  ("now" .
+   [4 0 0])
+  ("s" .
+   [2])
+  ("duration_cast" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("minutes" .
+   [3 0 0 0 0 0 0])
+  ("number" .
+   [3 0 0 0 0 1])
+  ("push_back" .
+   [8 0 0 0 0 0 0 0 0])
+  ("log" .
+   [6 0 0])
+  ("ipAddress" .
+   [2 0 0 0 0 1 0 0 0])
+  ("sin_addr" .
+   [1 0 0 0 0 0 1 0])
+  ("inet" .
+   [1 0 0 0])
+  ("sockaddr_in" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("loginAttempts" .
+   [3 0 0 0 0 0 0 0 6 2 1 0 0])
+  ("userAddress" .
+   [10 0 0 0 0 0 0 3 1 0 0])
+  ("MAX_LOGIN_ATTEMPTS" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("resetLoginAttempt" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("client" .
+   [1 0 0 0 0 0])
+  ("predict-on" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("join" .
+   [3 0 0 0])
+  ("pairs" .
+   [1 0 0 0 0])
+  ("disjointSet" .
+   [10 0 0 0 2 1 0 0 1 0 0])
+  ("items" .
+   [2 0 0 0 0])
+  ("clusters" .
+   [5 0 0 0 0 0 0 0])
+  ("cost" .
+   [14 0 0 0])
+  ("csize" .
+   [2 0 0 0 0])
+  ("MinimalCost" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("numIntegerPoints" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("vertices" .
+   [0 0 0 0 0 3 0 0])
+  ("triangleArea" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("palindrome" .
+   [2 0 0 1 0 0 0 1 0 0])
+  ("palindromes" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("substr" .
+   [1 0 0 0 0 0])
+  ("count_palindromes" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("naive" .
+   [1 0 0 0 0])
+  ("business_id" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("bid" .
+   [2 0 0])
+  ("rating" .
+   [4 0 0 0 0 0])
+  ("bizlist" .
+   [4 0 0 0 0 0 0])
+  ("_PACKET_HPP_" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("TCPPacket" .
+   [5 0 0 0 0 0 1 0 1])
+  ("packet" .
+   [11 0 0 0 0 0])
+  ("srcPort" .
+   [1 0 0 0 0 0 0])
+  ("seq" .
+   [1 0 0])
+  ("sequenceNum" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("ack" .
+   [2 0 0])
+  ("headerLength" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("HEADER_SIZE" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("reserved" .
+   [0 0 0 0 1 0 0 0])
+  ("codeBits" .
+   [0 0 0 0 0 0 1 0])
+  ("windowSize" .
+   [1 0 0 0 1 0 1 0 0 0])
+  ("checksum" .
+   [2 0 0 0 0 0 0 0])
+  ("urgent" .
+   [1 0 0 0 0 0])
+  ("segment" .
+   [2 0 0 0 0 0 0])
+  ("seralizeTCPPacket" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("dstPort" .
+   [1 0 0 0 0 0 0])
+  ("deserializePacket" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+  ("packetString" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("IPPROTO_UDP" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("SOCK_DGRAM" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("rcvFd" .
+   [3 0 0 0 0])
+  ("inet_addr" .
+   [1 0 0 0 0 0 0 0 0])
+  ("senderIP" .
+   [1 0 0 0 0 0 0 0])
+  ("listenPort" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("fstream" .
+   [1 0 0 0 0 0 0])
+  ("senderPort" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("connect" .
+   [1 0 0 0 0 0 0])
+  ("MTU" .
+   [2 0 0])
+  ("ByteArray" .
+   [2 0 0 0 0 0 0 0 0])
+  ("bytes" .
+   [4 0 0 0 0])
+  ("serialize" .
+   [0 0 0 0 0 0 0 1 0])
+  ("serializePacket" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("MedianFinder" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("addNum" .
+   [3 0 0 0 0 0])
+  ("findMedian" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("total" .
+   [3 0 0 0 0])
+  ("minHeap" .
+   [6 0 0 0 0 0 0])
+  ("maxHeap" .
+   [5 0 0 0 0 0 0])
+  ("AURORA_SCHEDULER_HOME" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("info" .
+   [3 0 0 0])
+  ("AURORA_ZIP" .
+   [1 0 0 0 0 0 1 1 0 0])
+  ("def" .
+   [3 0 0])
+  ("capWithLocation" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("android" .
+   [2 0 0 0 0 0 0])
+  ("location" .
+   [3 0 0 0 0 0 0 0])
+  ("Location" .
+   [4 0 0 0 0 0 0 0])
+  ("interval" .
+   [1 0 0 0 0 0 0 0])
+  ("-j8" .
+   [1 0 0])
+  ("UNIS_FILE" .
+   [1 0 0 0 0 0 0 0 0])
+  ("uni" .
+   [2 0 0])
+  ("PASSWORD" .
+   [1 0 0 0 0 0 0 0])
+  ("random_digits" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("PASSW" .
+   [1 0 0 0 0])
+  ("PASS_FILE" .
+   [2 0 0 0 0 0 0 0 0])
+  ("CREDENTIALS_FILE" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("CREATE" .
+   [0 0 0 1 0 0])
+  ("pl" .
+   [1 0])
+  ("source" .
+   [6 0 0 0 0 0])
+  ("EPSILON" .
+   [0 0 0 0 1 0 0])
+  ("cats" .
+   [1 0 0 0])
+  ("tok" .
+   [1 0 0])
+  ("words" .
+   [5 0 0 0 0])
+  ("review" .
+   [8 0 0 0 0 0])
+  ("reviews" .
+   [1 0 0 0 0 0 0])
+  ("category" .
+   [3 0 0 0 0 0 1 0])
+  ("category_counts" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("category_review" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("text" .
+   [2 0 0 0])
+  ("counts" .
+   [21 0 0 0 0 0])
+  ("review_to_token_counts" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("sum_counts" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("counts1" .
+   [8 0 0 0 0 0 0])
+  ("counts2" .
+   [3 0 0 0 0 0 0])
+  ("iteritems" .
+   [3 0 0 0 0 0 1 0 0])
+  ("mapValues" .
+   [3 0 0 0 0 0 0 0 0])
+  ("filter_counts" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("normalize" .
+   [4 0 0 0 0 0 0 1 0])
+  ("normalize_counts" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("seen_categories" .
+   [0 0 0 0 0 0 0 2 1 2 0 0 0 0 0])
+  ("collect" .
+   [3 0 0 0 0 0 0])
+  ("category_total_counts" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("cat" .
+   [8 0 0])
+  ("cnt" .
+   [3 0 0])
+  ("category_token_prob" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("collectAsMap" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("lg_scores" .
+   [1 0 0 0 0 0 0 0 0])
+  ("category_prob" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("seen_category_counts" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("guesses" .
+   [1 0 0 0 0 0 0])
+  ("category_tokens" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("category_token_counts" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("reduceByKey" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("aggregate_review_to_counts" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("category_token_probs" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DATASET_DIR/" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("DATA_FORMAT" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("deltaSample" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("true" .
+   [2 0 0 0])
+  ("and" .
+   [1 0 0])
+  ("partition_tree" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("fanouts" .
+   [5 0 0 0 0 0 0])
+  ("argc" .
+   [1 0 0 0])
+  ("free" .
+   [2 0 0 0])
+  ("probes" .
+   [5 0 0 0 0 0])
+  ("__m128i" .
+   [11 0 0 0 0 0 0])
+  ("cmp" .
+   [5 0 0])
+  ("cmp_packed" .
+   [3 0 0 0 0 0 0 0 1 0])
+  ("_mm_setzero_si128" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("binary_search_array_simd" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("upper_index" .
+   [5 0 0 0 0 0 0 0 0 0 0])
+  ("lower_index" .
+   [8 0 0 0 0 0 1 1 0 0 0])
+  ("binary_search_array" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("mask" .
+   [1 0 0 0])
+  ("array" .
+   [4 0 0 0 0])
+  ("int32_t" .
+   [8 0 0 0 0 0 0])
+  ("num_keys" .
+   [2 0 0 0 0 0 0 0])
+  ("malloc" .
+   [1 0 0 0 0 0])
+  ("num_probes" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("_mm_load_si128" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("dels_ABCD" .
+   [1 0 0 0 0 0 0 0 0])
+  ("dels_EFGH" .
+   [1 0 0 0 0 0 0 0 0])
+  ("cmp_ABCD" .
+   [1 0 0 0 0 0 0 0])
+  ("cmp_EFGH" .
+   [1 0 0 0 0 0 0 0])
+  ("cmp_A2H" .
+   [1 0 0 0 0 0 0])
+  ("dels_MNOP" .
+   [1 0 0 0 0 0 0 0 0])
+  ("cmp_I2P" .
+   [1 0 0 0 0 0 0])
+  ("cmp_MNOP" .
+   [1 0 0 0 0 0 0 0])
+  ("cmp_IJKL" .
+   [1 0 0 0 0 0 0 0])
+  ("partition" .
+   [1 0 0 0 0 0 0 0 0])
+  ("probe" .
+   [1 0 0 0 0])
+  ("range" .
+   [1 0 0 0 0])
+  ("num_levels" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("updateViewer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("update_viewer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("point" .
+   [1 0 0 0 0])
+  ("tangent" .
+   [3 0 0 0 0 0 0])
+  ("tangent1" .
+   [2 0 0 0 0 0 0 0])
+  ("tangent2" .
+   [2 0 0 0 0 0 0 0])
+  ("layers" .
+   [1 0 0 0 0 0])
+  ("feature" .
+   [2 0 0 0 0 0 0])
+  ("features" .
+   [3 0 0 0 0 0 0 0])
+  ("JSON" .
+   [1 0 0 0])
+  ("stringify" .
+   [1 0 0 0 0 0 0 0 0])
+  ("properties" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("map" .
+   [5 0 0])
+  ("code" .
+   [1 0 0 0])
+  ("popup" .
+   [1 0 0 0 1])
+  ("remove" .
+   [1 0 0 0 0 0])
+  ("$cookie" .
+   [1 0 0 0 0 0 0])
+  ("email" .
+   [10 0 0 0 0])
+  ("response" .
+   [8 0 0 0 0 0 0 0])
+  ("fields" .
+   [1 0 0 0 0 0])
+  ("sessionStorage" .
+   [5 0 0 0 0 0 0 0 0 0 2 1 0 0])
+  ("firstname" .
+   [1 0 0 0 0 0 0 0 0])
+  ("first_name" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("lastname" .
+   [1 0 0 0 0 0 0 0])
+  ("last_name" .
+   [3 0 0 0 0 0 0 0 0])
+  ("console" .
+   [5 0 0 0 0 0 0])
+  ("$scope" .
+   [1 0 0 0 0 0])
+  ("hd" .
+   [2 0])
+  ("builder" .
+   [5 0 0 0 0 0 0])
+  ("of_list" .
+   [3 0 0 0 0 0 0])
+  ("Local" .
+   [1 0 0 0 0])
+  ("Customer" .
+   [1 0 0 0 0 0 0 0])
+  ("error" .
+   [1 0 0 0 0])
+  ("build_malloc" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("ltype_of_typ" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("etype" .
+   [2 0 0 0 0])
+  ("hello" .
+   [1 0 0 0 0])))
