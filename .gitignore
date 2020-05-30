@@ -1,7 +1,0 @@
-.emacs.d/elpa/
-.DS_Store
-\#*
-*~
-*.persistent-scratch
-session.*
-ac-comphist*
